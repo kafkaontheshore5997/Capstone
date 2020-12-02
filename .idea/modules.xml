@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/capstone.iml" filepath="$PROJECT_DIR$/.idea/capstone.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/ECE444lab/project1-webapp-group1-nightowls/.idea/project1-webapp-group1-nightowls.iml" filepath="$USER_HOME$/PycharmProjects/ECE444lab/project1-webapp-group1-nightowls/.idea/project1-webapp-group1-nightowls.iml" />
+    </modules>
+  </component>
+</project>
