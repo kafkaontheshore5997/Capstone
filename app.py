@@ -1,7 +1,7 @@
 from flask_restful import Api
 from flask import Flask
 from flask_mongoengine import MongoEngine
-import routes_manage
+import routes_manager
 
 CONN_STR = 'mongodb+srv://Capstone:1234@cluster0.mvxpf.mongodb.net/test'
 db = MongoEngine()
@@ -20,7 +20,7 @@ def create_app(config=None):
         return "Hello World!"
     # init api and routes
     api = Api(app=flask_app)
-    routes_manage.routes_creator(api=api)
+    routes_manager.routes_creator(api=api)
 
     return flask_app
 
